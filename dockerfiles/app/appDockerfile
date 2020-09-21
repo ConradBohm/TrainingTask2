@@ -1,6 +1,5 @@
 FROM node
 WORKDIR /usr/src/app
-ADD dockerfiles/app/ /usr/src/app
-CMD ["/startup.sh"]
+ADD . /usr/src/app
 RUN npm install
-RUN ls -a
+
