@@ -1,5 +1,6 @@
 FROM node
 WORKDIR /usr/src/app
-ADD app ./
+COPY . /usr/src/app
 RUN npm install
-CMD ["node", "app.js"]
+RUN ls -a
+CMD ["/startup.sh"]
