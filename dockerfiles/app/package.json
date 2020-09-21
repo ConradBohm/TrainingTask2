@@ -18,6 +18,8 @@
   "homepage": "https://github.com/ConradBohm/TrainingTask1#readme",
   "dependencies": {
     "mongoose": "^5.10.5",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "express": "^4.17.0",
+    "pug": "3.0.0"
   }
 }
