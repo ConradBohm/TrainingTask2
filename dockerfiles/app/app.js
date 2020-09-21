@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 var router = express.Router();
-var url = "mongodb://127.0.0.1:27017/users";
+var url = "mongodb://database:27017/users";
 var bodyParser = require('body-parser');
 
 //app.use("/", router);
