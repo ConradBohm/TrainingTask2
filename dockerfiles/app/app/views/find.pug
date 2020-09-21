@@ -1,0 +1,11 @@
+html
+    head
+        title Find Page
+
+    body
+        h1 Search the database
+        form(method='post' action='/find')
+            label Enter First Name to search
+            input(type='text' name='searchFirstName' placeholder='Enter name')
+            br
+            input(type='submit' value='Search for name')

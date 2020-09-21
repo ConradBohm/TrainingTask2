@@ -1,0 +1,23 @@
+{
+  "name": "trainingtask1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConradBohm/TrainingTask1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConradBohm/TrainingTask1/issues"
+  },
+  "homepage": "https://github.com/ConradBohm/TrainingTask1#readme",
+  "dependencies": {
+    "mongoose": "^5.10.5",
+    "nodemon": "^2.0.4"
+  }
+}

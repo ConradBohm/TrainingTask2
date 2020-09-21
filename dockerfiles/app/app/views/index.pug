@@ -1,0 +1,19 @@
+html
+    head
+        title Database Form
+        style style=(color:'white', background:'magenta')
+        
+            
+
+    body
+        h1 Name Database
+        form(method='post' action='/database')
+            label(for='firstName') Enter First name:   
+            input#firstName(type='text' name='firstName' placeholder='first name')
+            br
+            label(for='lastNme') Enter Last name:
+            input#lastName(type='text' name='lastName' placeholder='last name')
+            br
+            label(for='email') Enter email
+            input#email(type='text' name='email' placeholder='email')
+            input(type='submit' value='OK')
