@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+    
+    nginx:
+        build:
+            context: ./dockerfiles/nginx/
+            dockerfile: nginxDockerfile
+        container_name: nginx
+        restart: always
+        ports:
+            - 80:80
+            - 443:443
+
+    app:
+        build:
+            context: ./dockerfiles/app/
+            dockerfile: appDockerfile
+        container_name: app
+        restart: always
+        ports:
+            - 3000:3000
+
+    database:
+        build:
+            context: ./dockerfiles/database/
+            dockerfile: dbDockerfile
+        container_name: database
+        restart: always
+        ports: 
+            - 27017:27017
