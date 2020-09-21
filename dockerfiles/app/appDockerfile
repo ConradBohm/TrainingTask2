@@ -1,0 +1,5 @@
+FROM node
+WORKDIR /usr/src/app
+ADD app ./
+RUN npm install
+CMD ["node", "app.js"]
